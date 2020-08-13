@@ -16,9 +16,9 @@
               <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default" name="urlName" required>
             </div>
-            {{#if shortCode}}
+            {{#if shortUrl}}
             <div class="alert alert-info" role="alert">
-              <a href="/{{shortCode}}" id="copyLink">https://morning-wave-82451.herokuapp.com/{{shortCode}}</a>
+              <a href="/{{shortUrl}}" id="copyLink">{{shortUrl}}</a>
             </div>
             {{/if}}
           </div>
