@@ -9,17 +9,4 @@ function generateUrl() {
   return shortCode
 }
 
-// function checkCode(code) {
-//   Shorten.find()
-//     .lean()
-//     .then(data => {
-//       const result = data.find(item => item.shortCode === shortCode)
-//       if (result) {
-//         console.log(result)
-//         return generateUrl(5)
-//       }
-//     })
-//   console.log(code)
-// }
-
 module.exports = generateUrl

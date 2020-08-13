@@ -16,11 +16,10 @@
               <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default" name="urlName" required>
             </div>
-            {{#if shortUrl}}
             <div class="alert alert-info" role="alert">
-              <a href="/{{shortUrl}}" id="copyLink">{{shortUrl}}</a>
+              <a href="/{{shortCode}}" id="copyLink">{{shortUrl}}</a>
             </div>
-            {{/if}}
+
           </div>
           <div class="card-footer text-muted">
             <button class="btn btn-success" type="submit">Generate Shorten Url</button>
